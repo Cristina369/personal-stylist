@@ -7,11 +7,11 @@ const About = () => {
   return (
     <>
         <section className='bg-white w-10/12 h-screen dark:bg-black absolute right-0 flex flex-row'>
-            <div className='8/12'>
-                    <img className='w-69' src={Image2} alt=''/>
+            <div className='w-8/12 pl-20'>
+                    <img className='h-screen' src={Image2} alt=''/>
                     {/* <img  className='' src={Image1} alt=''/> */}
             </div>
-            <div className='4/12'>
+            <div className='w-4/12'>
                 <h1 className=''>Heyyy, I am SOFIA</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nihil, aliquam reprehenderit a soluta temporibus quaerat vero, pariatur perspiciatis, id dolore inventore odit voluptatibus repellendus consequuntur ipsa similique officia iusto?</p>
             </div>
