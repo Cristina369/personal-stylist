@@ -5,6 +5,7 @@ import Header from "./components/common/heading/Header";
 import About from "./components/about/About";
 import Portofolio from "./components/portofolio/Portofolio";
 import Contact from "./components/contact/Contact";
+import Services from "./components/services/Services";
 // import Themetoggle from "./components/common/btn/Themetoggle";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home/>} />
            <Route path="/about" exact element={<About/>} />
-          {/*<Route path="/services" exact element={<Services/>} /> */}
+          <Route path="/services" exact element={<Services/>} />
           <Route path="/portofolio" exact element={<Portofolio/>} />
           <Route path="/contact" exact element={<Contact/>} />
         </Routes>
