@@ -6,6 +6,7 @@ import About from "./components/about/About";
 import Portofolio from "./components/portofolio/Portofolio";
 import Contact from "./components/contact/Contact";
 import Services from "./components/services/Services";
+import Hamburger from "./components/common/heading/Hamburger";
 // import Themetoggle from "./components/common/btn/Themetoggle";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>  
       <Router>
         <Header/>
+        <Hamburger/>
         <Routes>
           <Route path="/" exact element={<Home/>} />
            <Route path="/about" exact element={<About/>} />

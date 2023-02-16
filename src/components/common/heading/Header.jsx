@@ -5,16 +5,11 @@ import DarkBtn from "../../common/btn/DarkBtn";
 const Header = () => {
   return (
     <>
-    <section className='bg-primary dark:bg-secondary w-2/12 h-screen fixed flex justify-center items-center border-r border-secondary dark:border-primary'>
+    <section className='bg-primary dark:bg-secondary w-2/12 h-screen fixed flex justify-center items-center border-r border-secondary dark:border-primary mobile:displayNone tablet:displayNone desktop:flex'>
         <header>
             <nav className=''>
                 <div className='absolute top-24 font-medium text-5xl text-secondary dark:text-primary'>
                     <h2>Sofia</h2>
-                </div>
-                <div className="HAMBURGER-ICON space-y-2"  >
-                    <span className="block h-[1px] w-8 bg-secondary dark:bg-primary"></span>
-                    <span className="block h-[px] w-8 bg-secondary dark:bg-primary"></span>
-                    <span className="block h-[2px] w-8 bg-secondary dark:bg-primary"></span>
                 </div>
                 <div className='flex flex-col items-center justify-around'>
                     <ul className='flex flex-col justify-center'>

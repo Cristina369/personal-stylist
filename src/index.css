@@ -9,7 +9,9 @@
 .services {
     @apply text-secondary dark:text-primary;
 }
-
+.showMenuNav{
+    @apply bg-white dark:bg-black;
+}
 @layer base {
     html {
         font-family: 'Anton', sans-serif;
@@ -55,6 +57,14 @@
         background: url(./images/back.gif);
     }
 
+    .displayNone{
+        display: none;
+    }
+
+    .displayInit{
+        display: inline;
+    }
+
                   .hideMenuNav {
                       display: none;
                   }
@@ -66,7 +76,6 @@
                       height: 100vh;
                       top: 0;
                       left: 0;
-                      background: white;
                       z-index: 10;
                       display: flex;
                       flex-direction: column;
