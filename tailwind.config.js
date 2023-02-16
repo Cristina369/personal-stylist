@@ -5,6 +5,11 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
+    screens: {
+      'mobile': '300px',
+      'tablet': '750px',
+      'desktop': '1200px',
+    },
     extend: {
        colors:{
         'primary':'#ffffff',

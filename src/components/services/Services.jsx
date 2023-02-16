@@ -13,7 +13,7 @@ const Services = () => {
                         <div className='w-5/12' key={index}>
                             <img className='w-[400px]' src={val.image} alt='services'/>
                         </div>
-                        <div className='w-7/12 pr-10 pl-14'>
+                        <div className='w-7/12 pr-10 pl-14 pt-16'>
                             <h1 className='text-secondary dark:text-primary font-extrabold text-5xl pb-10 flex flex-row justify-between relative z-20'>0{val.id}<span className='text-right'>{val.price}$</span></h1>
                             <h1 className='text-primary shadow font-black text-[110px] -ml-32 -mt-48 pb-7 dark:text-secondary dark:title'>{val.title}</h1>
                             <p className='text-secondary dark:text-primary text-lg border-l-2 border-gray-300 pl-5'>{val.desc}</p>
@@ -24,7 +24,7 @@ const Services = () => {
                         <div className='w-5/12' key={index}>
                             <img className='w-[400px]' src={val.image} alt='services'/>
                         </div>
-                        <div className='w-7/12 pr-10'>
+                        <div className='w-7/12 pr-10 pt-16'>
                             <h1 className='text-secondary dark:text-primary font-extrabold text-5xl pb-10 flex flex-row justify-between relative z-20'>0{val.id}<span className='text-right'>{val.price}$</span></h1>
                             <h1 className='text-primary shadow font-black text-[110px] -ml-32 -mt-48 pb-7 dark:text-secondary dark:title'>{val.title}</h1>
                             <p className='text-secondary dark:text-primary text-lg border-l-2 border-gray-300 pl-5'>{val.desc}</p>
