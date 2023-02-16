@@ -4,7 +4,7 @@ import Image1 from './../../images/photo_3.jpg'
 const Home = () => {
   return (
     <>
-        <section className='bg-white w-10/12 h-screen dark:bg-black absolute right-0 flex flex-row-reverse'>
+        <section className='bg-white w-10/12 h-screen dark:bg-black absolute right-0 flex flex-row-reverse mobile:w-full desktop:w-10/12'>
             <div className='w-6/12 h-auto flex flex-row justify-end pr-5'>
                 {/* <div className=' -mr-40 z-10 pt-32'>
                     <img className='w-96 border-4 border-primary dark:border-secondary p-6' src={Image1} alt='Sofia Fashion'/>
