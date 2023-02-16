@@ -39,11 +39,12 @@ const DarkBtn = () => {
   return (
     <>
         <button onClick={handleThemeSwitch} className=''>
-            <div className='icon w-fit flex justify-center items-center'><WiMoonAltWaningCrescent4 size={35}/>
+            <div className='iconM w-20 mobile:displayInit tablet:displayInit desktop:displayNone'><WiMoonAltWaningCrescent4 size={40}/></div>
+            <div className='icon w-fit flex justify-center items-center mobile:displayNone tablet:displayNone desktop:flex'><WiMoonAltWaningCrescent4 size={35}/>
             <div>{theme === 'dark' ? (
                 <h2 className='text-primary w-fit font-medium text-1xl pl-2'>Light</h2>   
             ):(
-                <h2 className='text-secondary w-fit font-medium text-1xl pl-2'>Dark</h2>
+                <h2 className='text-secondary w-fit font-medium text-1xl pl-2 '>Dark</h2>
             )}
             </div>
             </div>
