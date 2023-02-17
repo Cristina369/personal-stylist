@@ -34,7 +34,7 @@ const Hamburger = () => {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
               </div>
-                <ul className="flex flex-col items-center justify-center min-h-[250px]">
+                <ul className="flex flex-col items-center justify-center h-screen">
                     <li className='nav-list text-secondary dark:text-primary'><Link to='/'>Home</Link></li>
                     <li className='nav-list text-secondary dark:text-primary'><Link to='/about'>About</Link></li>
                     <li className='nav-list text-secondary dark:text-primary'><Link to='/services'>Services</Link></li>
