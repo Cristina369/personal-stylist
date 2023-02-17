@@ -3,16 +3,16 @@ import React from 'react'
 const Contact = () => {
   return (
     <>
-        <section className='bg-white w-10/12 h-screen dark:bg-black absolute right-0 p-56'>
-            <div className='pr-44 pb-4'><h1 className='text-secondary text-7xl font-medium border-b-[1px] border-gray-200 py-4 pb-9 dark:text-primary'>Contact Us</h1></div>
-            <div className='flex flex-row justify-between pt-11'>
-                <div className='pr-5 w-5/12'>
+        <section className='bg-white w-10/12 h-screen dark:bg-black absolute right-0 p-56 mobile:w-full desktop:w-10/12 mobile:p-5 desktop:p-56'>
+            <div className='pr-44 pb-4 mobile:displayNone desktop:displayInit'><h1 className='text-secondary text-7xl font-medium border-b-[1px] border-gray-200 py-4 pb-9 dark:text-primary mobile:text-3xl desktop:text-7xl'>Contact Us</h1></div>
+            <div className='flex flex-row justify-between pt-11 mobile:flex-col tablet:flex-col desktop:flex-row'>
+                <div className='pr-5 w-5/12 mobile:pr-0 desktop:pr-5 mobile:w-full desktop:w-5/12'>
                     <h2 className='text-secondary text-xl p-2 pb-5 dark:text-primary'>Get in touch</h2>
                     <p className='text-xl font-medium p-2 dark:text-primary'><span className='text-secondary text-lg font-bold dark:text-primary'>Email: </span>email@hmail.com</p>
                     <p className='text-xl font-medium p-2 dark:text-primary'><span className='text-secondary text-lg font-bold dark:text-primary'>Phone: </span>+085 375 23</p>
                     <p className='text-xl font-medium p-2 dark:text-primary'><span className='text-secondary text-lg font-bold dark:text-primary'>Adress: </span>Lorem ipsum dolor sit amet</p>
                 </div>
-                <div className='w-7/12 pl-2'>
+                <div className='w-7/12 pl-2 mobile:w-full desktop:w-7/12 mobile:pt-8 mobile:pl-0 desktop:pl-2 desktop:pt-0'>
                     <form>
                         <div className="flex flex-row text-secondary">
                             <div className="relative w-6/12 m-2">

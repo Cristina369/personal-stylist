@@ -6,10 +6,12 @@
     @apply fill-secondary dark:fill-primary;
 }
 
-div:nth-child(1) .iconM > svg {
-    @apply fill-secondary ;
+/* div:nth-child(1) .iconM > svg {
+    @apply fill-secondary dark:fill-primary;
+} */
+svg#Layer_1{
+    @apply fill-secondary dark:fill-primary;
 }
-
 .services {
     @apply text-secondary dark:text-primary;
 }
@@ -69,22 +71,26 @@ div:nth-child(1) .iconM > svg {
         display: inline;
     }
 
-                  .hideMenuNav {
-                      display: none;
-                  }
+    .hideMenuNav {
+      display: none;
+    }
         
-                  .showMenuNav {
-                      display: block;
-                      position: absolute;
-                      width: 100%;
-                      height: 100vh;
-                      top: 0;
-                      left: 0;
-                      z-index: 50;
-                      display: flex;
-                      flex-direction: column;
-                      justify-content: space-evenly;
-                      align-items: center;
-                  }
+    .showMenuNav {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      z-index: 50;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .ImageH{
+        height: -webkit-fill-available;
+    }
 
 }

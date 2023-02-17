@@ -8,13 +8,13 @@ const Hamburger = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <section className="flex items-center justify-between z-50 border-b border-gray-400 py-8 desktop:displayNone ">
+    <section className="flex items-center justify-between z-50 border-b border-gray-400 py-8 desktop:displayNone bg-primary dark:bg-secondary">
       <nav>
         <section className="MOBILE-MENU flex lg:hidden p-4">
           <div className="HAMBURGER-ICON space-y-2 absolute top-0 right-0 px-8 py-8" onClick={() => setIsNavOpen((prev) => !prev)} >
-            <span className="block h-0.5 w-8 bg-secondary dark:text-primary"></span>
-            <span className="block h-0.5 w-8 bg-secondary dark:text-primary"></span>
-            <span className="block h-0.5 w-8  bg-secondary dark:text-primary"></span>
+            <span className="block h-0.5 w-8 bg-secondary dark:bg-primary"></span>
+            <span className="block h-0.5 w-8 bg-secondary dark:bg-primary"></span>
+            <span className="block h-0.5 w-8  bg-secondary dark:bg-primary"></span>
           </div>
           <div className='absolute top-7 left-6'><DarkBtn/></div>
 
