@@ -41,6 +41,10 @@ const Hamburger = () => {
                     <li className='nav-list text-secondary dark:text-primary'><Link to='/portofolio'>Portofolio</Link></li>
                     <li className='nav-list text-secondary dark:text-primary'><Link to='/contact'>Contact</Link></li>
                 </ul>
+                <div className='flex flex-row justify-center items-center gap-3 w-full -mt-8 mb-6 border-t border-gray-300 dark:border-gray-100'>
+                    <p className='text-normal font-medium p-2 dark:text-primary'>email@hmail.com</p>
+                    <p className='text-normal font-medium p-2 dark:text-primary'>+085 375 230</p>
+                </div>
             </div>
         </div>
         </section>
