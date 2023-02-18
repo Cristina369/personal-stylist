@@ -5,7 +5,6 @@
 .icon > svg {
     @apply fill-secondary dark:fill-primary;
 }
-
 /* div:nth-child(1) .iconM > svg {
     @apply fill-secondary dark:fill-primary;
 } */
@@ -16,7 +15,7 @@ svg#Layer_1{
     @apply text-secondary dark:text-primary;
 }
 .showMenuNav{
-    @apply bg-white dark:bg-black;
+    @apply bg-white dark:bg-black h-full;
 }
 @layer base {
     html {
@@ -77,7 +76,7 @@ svg#Layer_1{
         
     .showMenuNav {
       display: block;
-      position: absolute;
+      position: fixed;
       width: 100%;
       height: 100vh;
       top: 0;
@@ -91,6 +90,9 @@ svg#Layer_1{
 
     .ImageH{
         height: -webkit-fill-available;
+    }
+    .ImageFill{
+        height: -webkit-fill-available;;
     }
 
 }

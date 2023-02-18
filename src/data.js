@@ -67,3 +67,26 @@ export const services = [
     desc:" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quae officiis consectetur numquam praesentium velit dignissimos!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quae officiis consectetur numquam praesentium velit dignissimos!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quae officiis consectetur numquam praesentium velit dignissimos!"
   },
 ]
+  export const experience = [
+  {
+    id: 2,
+    nr:"01",
+    title: "Personal stylizations",
+    subtitle:"+200",
+    desc:" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quae officiis consectetur numquam praesentium velit dignissimos!"
+  },
+    {
+    id: 3,
+    nr:"02",
+    title: "Branding stylizations",
+    subtitle:"+100",
+    desc:" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quae officiis consectetur numquam praesentium velit dignissimos!"
+  },  
+  {
+    id: 4,
+    nr:"03",
+    title: "General stylization",
+    subtitle:"+500",
+    desc:" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quae officiis consectetur numquam praesentium velit dignissimos!"
+  },
+]
