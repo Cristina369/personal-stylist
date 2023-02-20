@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/personal-stylist/static/css/main.5b31c4ed.css",
+    "main.js": "/personal-stylist/static/js/main.8dfe51d8.js",
+    "static/media/photo_1.jpg": "/personal-stylist/static/media/photo_1.5df429cea3455d3e2c92.jpg",
+    "static/media/gantas-vaiciulenas-X5Pa7uhy-6E-unsplash.jpg": "/personal-stylist/static/media/gantas-vaiciulenas-X5Pa7uhy-6E-unsplash.a4b4632599b8298283ad.jpg",
+    "static/media/photo_11.jpg": "/personal-stylist/static/media/photo_11.6e032a2b9893e0997ac7.jpg",
+    "static/media/photo_10.jpg": "/personal-stylist/static/media/photo_10.1426717307ce8ebf20d1.jpg",
+    "static/media/gantas-vaiciulenas-b6I8vX288Mk-unsplash.jpg": "/personal-stylist/static/media/gantas-vaiciulenas-b6I8vX288Mk-unsplash.58168b96936afbbc1877.jpg",
+    "static/media/photo_5.jpg": "/personal-stylist/static/media/photo_5.8489c7123b0780a92ef5.jpg",
+    "static/media/photo_6.jpg": "/personal-stylist/static/media/photo_6.957bf55e1124d773eba4.jpg",
+    "static/media/photo_3.jpg": "/personal-stylist/static/media/photo_3.fa5594efc2510d9decb7.jpg",
+    "static/media/photo_2.jpg": "/personal-stylist/static/media/photo_2.cbf6264ed7c609e61e72.jpg",
+    "index.html": "/personal-stylist/index.html",
+    "main.5b31c4ed.css.map": "/personal-stylist/static/css/main.5b31c4ed.css.map",
+    "main.8dfe51d8.js.map": "/personal-stylist/static/js/main.8dfe51d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b31c4ed.css",
+    "static/js/main.8dfe51d8.js"
+  ]
+}
