@@ -1,5 +1,6 @@
 import React from 'react'
-import Image2 from './../../images/photo_4.jpg'
+import Image1 from './../../images/gantas-vaiciulenas-b6I8vX288Mk-unsplash.jpg'
+import Image2 from './../../images/gantas-vaiciulenas-X5Pa7uhy-6E-unsplash.jpg'
 import { experience } from '../../data'
 
 const About = () => {
@@ -23,7 +24,7 @@ const About = () => {
             <div className='w-[900px] h-[690px] border-4 border-secondary dark:border-primary absolute top-96 left-[350px] mobile:displayNone desktop:displayInit'></div>
             <div className='w-full flex flex-row-reverse justify-center items-center bg-primary dark:bg-secondary z-10 -mt-3 obile:flex-col desktop:flex-row-reverse'>
               <div className='w-6/12 mobile:displayNone desktop:displayInit'>
-                <img className='w-10/12 mobile:h-96 desktop:h-full relative' src={Image2} alt=''/>
+                <img className='w-10/12 mobile:h-96 desktop:h-full relative' src={Image1} alt=''/>
               </div>
               <div className='w-6/12 pt-5 pb-12 pl-5 mobile:w-full desktop:w-6/12'>
                 <h1 className='text-secondary dark:text-primary font-bold text-8xl fontM text-left px-4 pb-16 pt-16 mobile:text-4xl mobile:text-center desktop:text-left desktop:text-8xl'>Experience</h1>

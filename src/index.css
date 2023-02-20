@@ -2,21 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-.icon > svg {
-    @apply fill-secondary dark:fill-primary;
-}
-/* div:nth-child(1) .iconM > svg {
-    @apply fill-secondary dark:fill-primary;
-} */
-svg#Layer_1{
-    @apply fill-secondary dark:fill-primary;
-}
-.services {
-    @apply text-secondary dark:text-primary;
-}
-.showMenuNav{
-    @apply bg-white dark:bg-black h-full;
-}
+    .icon > svg {
+        @apply fill-secondary dark:fill-primary;
+    }
+
+    svg#Layer_1{
+        @apply fill-secondary dark:fill-primary;
+    }
+
+    .services {
+        @apply text-secondary dark:text-primary;
+    }
+
+    .showMenuNav{
+        @apply bg-white dark:bg-black h-full;
+    }
+
+    .checkSvg svg {
+        @apply fill-green-500;
+    }
+    
 @layer base {
     html {
         font-family: 'Anton', sans-serif;

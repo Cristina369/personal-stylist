@@ -9,7 +9,7 @@ const Header = () => {
         <header>
             <nav className=''>
                 <div className='absolute top-24 font-medium text-5xl text-secondary dark:text-primary'>
-                    <h2>Sofia</h2>
+                    <h2>Fsh.D</h2>
                 </div>
                 <div className='flex flex-col items-center justify-around'>
                     <ul className='flex flex-col justify-center'>
